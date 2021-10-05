@@ -41,14 +41,6 @@ public class Point {
 		return this.y;
 	}
 	
-	/*public Point setX(int x1) {
-		return new Point(x1,y);
-	}
-	
-	public Point setY(int y1) {
-		return new Point(x,y1);
-	}*/
-	
 	@Override
 	public String toString() {
 		return "("+ this.x + "," + this.y + ")";
