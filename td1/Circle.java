@@ -31,8 +31,8 @@ public class Circle {
 	}
 	
 	public boolean contains(Point p) {
-		double distance_p = Math.sqrt(Math.pow((p.getX()-centre.getX()),2) + Math.pow((p.getY()-centre.getY()),2) );
-		if(distance_p<=radius) {
+		double dist = Math.sqrt(Math.pow((p.getX()-centre.getX()),2) + Math.pow((p.getY()-centre.getY()),2) );
+		if(dist<=radius) {
 			return true;
 		}
 		return false;
