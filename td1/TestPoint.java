@@ -26,12 +26,6 @@ public class TestPoint {
 		poly1.add(null);
 		System.out.println(poly1.nbPoints());
 		System.out.println(poly1.contains(p1));
-
-		PolyLineLinkedList poly2 = new PolyLineLinkedList();
-		poly2.add(p3);
-		poly2.add(p1);
-		System.out.println(poly2.nbPoints());
-		System.out.println(poly2.contains(p1));
 		
 		Circle c = new Circle(p1,1);
 		Circle c2 = new Circle(p1,2);
@@ -41,10 +35,5 @@ public class TestPoint {
 		Circle c3= new Circle(new Point(1,2),1);
 		c3.getCenter().translate(1, 1);
 		System.out.println(c);
-		
-		Ring r = new Ring(new Point(1,2),1,2);
-		Ring r2 = new Ring(new Point(1,2),1,2);
-		System.out.println(r);
-		System.out.println(r.equals(r2));
 	}
 }
