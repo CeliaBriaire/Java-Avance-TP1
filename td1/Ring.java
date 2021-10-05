@@ -18,7 +18,7 @@ public class Ring extends Circle {
 		}
 	}
 	
-	public int getR2() {
+	public int getRadius2() {
 		return radius2;
 	}
 	
@@ -41,7 +41,7 @@ public class Ring extends Circle {
 		if(this==objet) return true;
 		if(!(objet instanceof Ring)) return false;
 		Ring r = (Ring) objet;
-		return r.getR2()== radius2;
+		return r.getRadius2()== radius2;
 	}
 	
 	@Override
