@@ -21,8 +21,4 @@ public class PolyLine {
 		return listePoint.contains(p);
 	}
 	
-	/*public int pointCapacity() {
-		return listePoint.length;
-	}*/	
-	
 }
